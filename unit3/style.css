@@ -6,7 +6,6 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	
-
 }
 
 h1{
@@ -22,6 +21,7 @@ h1{
 #slogan{
 	font-family: "Courier New", monospace;
 	text-align: left;
+	text-decoration: underline;
 	font-size: 28px;
 
 }
