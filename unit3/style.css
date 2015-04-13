@@ -15,11 +15,13 @@ h1{
 	font-size: 48px;
 	text-align: right;
 	font-style: itallic;
+	font-weight: 500px;
 
 }
 
 #slogan{
 	font-family: "Courier New", monospace;
 	text-align: left;
+	font-size: 28px;
 
 }
