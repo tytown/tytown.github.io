@@ -1,26 +1,26 @@
 body {
-	background-color: #CAC7FF;
+	
 	background:url("images/cover_flags.jpg") no-repeat center center fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	margin: 0;
-	
+	margin: 0;	
 
 }
 
 h1{
-	color: #000;
+	color: rgb(0,0,0);
 	font-family: "Courier New", monospace;
-	font-size: 48px;
+	font-size: 54px;
 	text-align: right;
-	font-style: itallic;
+	font-style: italic;
 	font-weight: 300px;
 
 }
 
 #slogan{
+	color: rgb(255,0,0);
 	font-family: "Courier New", monospace;
 	text-align: left;
 	text-decoration: underline;
@@ -28,8 +28,15 @@ h1{
 
 }
 
-#intro{
-	background: #fff;
-	padding: 60px;
-	
+#top_bar{
+	background: rgba(252,255,255,0.8);
+	padding:15px;
+	height: 170px;
+
 }
+
+/*#bottom_bar{
+	text-align: bottom;
+	background: rgba(252,255,255,0.9);
+	padding:15px;
+	height: 170px;*/
