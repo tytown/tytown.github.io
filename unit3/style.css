@@ -5,6 +5,7 @@ body {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+	margin: 0;
 	
 
 }
@@ -25,4 +26,10 @@ h1{
 	text-decoration: underline;
 	font-size: 28px;
 
+}
+
+#intro{
+	background: #fff;
+	padding: 60px;
+	
 }
