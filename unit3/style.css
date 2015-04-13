@@ -1,10 +1,11 @@
 body {
 	background-color: #CAC7FF;
-	background-image:url("images/cover_flags.jpg") no-repeat center center fixed;
+	background:url("images/cover_flags.jpg") no-repeat center center fixed;
+	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	
 
 }
 
