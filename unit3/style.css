@@ -1,6 +1,7 @@
 body {
 	background-color: #CAC7FF;
-	
+	background-image: url("../images/cover_flags.jpg") no-repeat center center fixed;
+
 }
 
 h1{
