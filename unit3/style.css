@@ -1,11 +1,11 @@
 body {
 	background-color: #CAC7FF;
-	background-image: url("../images/cover_flags.jpg") no-repeat center center fixed;
+	background-image:url("images/cover_flags.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	
+
 }
 
 h1{
