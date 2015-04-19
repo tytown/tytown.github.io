@@ -1,3 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Averia+Libre:300,700italic);
+
+title{
+	text-align: left;
+	margin: 0 auto;
+	
+}
+
 body {
 	
 	background:url("images/cover_flags.jpg") no-repeat center center fixed;
@@ -10,33 +18,87 @@ body {
 }
 
 h1{
+	font-family: 'Averia Libre', cursive;
 	color: rgb(0,0,0);
-	font-family: "Courier New", monospace;
-	font-size: 54px;
-	text-align: right;
+	/*font-family: "Courier New", monospace;*/
+	font-size: 74px;
+	letter-spacing: 10px;
+	text-align: left;
 	font-style: italic;
-	font-weight: 300px;
-
+	font-weight: 400px;
+	margin: 0 15px;
 }
 
+/*header{
+	position: fixed;
+	top: 0;
+	margin: 0;
+	background: rgba(252,255,255,0.8);
+	padding: 0;
+	height: 25px;
+	width: 100%;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	margin: 0;
+	background: rgba(252,255,255,0.8);
+	padding: 0;
+	height: 25px;
+	width: 100%;*/
+}
+
+nav{
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgb(255,0,0);
+	width: 100%;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+li, li a{
+	text-align: center;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	width: 24%;
+}
+
+li a{
+}
+
+#whatisit{
+		background: rgb(0,255,100);
+	}
+
+#excerpt{
+		background: rgb(0,0,255);
+	}
+
+#author{
+		background: rgb(255,0,0);
+	}
+
+#contact{
+		background: rgb(255,255,0);
+	}
+
 #slogan{
-	color: rgb(255,0,0);
+	margin: -5px 320px 0;
+	color: rgb(13,0,240);
 	font-family: "Courier New", monospace;
 	text-align: left;
 	/*text-decoration: underline;*/
 	font-size: 28px;
 
 }
-
-#top_bar{
-	background: rgba(252,255,255,0.8);
-	padding:15px;
-	height: 170px;
-
-}
-
-/*#bottom_bar{
-	text-align: bottom;
-	background: rgba(252,255,255,0.9);
-	padding:15px;
-	height: 170px;*/
