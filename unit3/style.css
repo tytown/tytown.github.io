@@ -1,11 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Averia+Libre:300,700italic);
 @import url(http://fonts.googleapis.com/css?family=Philosopher:400,700);
-
-title{
-	text-align: left;
-	margin: 0 auto;
-	
-}
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
 
 body {
 	
@@ -27,7 +22,7 @@ h1{
 	text-align: left;
 	font-style: italic;
 	font-weight: 400px;
-	margin: 15px;
+	margin: 15px 0 0 15px;
 }
 
 header{
@@ -64,20 +59,9 @@ ul{
 	padding: 0;
 }
 
-li, li a{
-	text-align: center;
+
+.info{
 	display: block;
-	float: left;
-	margin: 0;
-	padding: 0;
-}
-
-li{
-	width: 25%;
-}
-
-li a{
-	width: 100%;
 }
 
 #whatitis{
@@ -102,21 +86,50 @@ li a{
 	color: rgb(5,6,107);
 	text-align: left;
 	font-size: 2em;
-	margin: -30px 360px 0;
+	width: 1204px;
+	float: right;
+	margin: 0 360px 0;
 	position: fixed;
 
 }
 
-#descript{
-	color: rgb(255,255,255);
-	font-size: 24px;
-	width: 800px;
+#intro_descript{
+	font-family: 'Bitter', serif;
+	background: rgba(255,0,0,0.5);
+	color: rgb(5,6,107);
+	font-size: 28pt;
+	width: 700px;
 	text-align: right;
-	/*margin: 200px 10px 10px, 400px;*/
+	float: right;
+	padding: 93px 20px 0 0;
+	margin: 90vh 0 0 0;
 
+	}
+
+#list{
+	font-family: 'Philosopher', sans-serif;
+	background: rgba(255,0,0,0.5);
+	color: rgb(255,205,255);
+	font-size: 16pt;
+	width: 700px;
+	text-align: right;
+	float: right;
+	padding: 0 20px 10px 0;
 
 }
 
-#menu li{
+#menu li, #menu li a{
+	text-align: center;
 	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#menu li{
+	width: 25%;
+}
+
+#menu li a{
+	width: 100%;
 }
