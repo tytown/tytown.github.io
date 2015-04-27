@@ -13,26 +13,29 @@ body {
 
 }
 
-h1{
-	font-family: 'Averia Libre', cursive;
-	color: rgb(0,0,0);
-	/*font-family: "Courier New", monospace;*/
-	font-size: 78px;
-	letter-spacing: 10px;
-	text-align: left;
-	font-style: italic;
-	font-weight: 400px;
-	margin: 15px 0 0 15px;
-}
-
 header{
 	position: fixed;
 	top: 0;
 	margin: 0;
 	background: rgba(252,25,0,0.5);
 	padding: 0;
-	height: 140px;
+	height: 160px;
 	width: 100%;
+}
+
+
+h1{
+	font-family: 'Averia Libre', cursive;
+	color: rgb(0,0,0);
+	/*font-family: "Courier New", monospace;*/
+	font-size: 82px;
+	letter-spacing: 15px;
+	padding: 0;
+	text-align: left;
+	font-style: italic;
+	font-weight: 400px;
+	margin: 15px 0 0 10px;
+
 }
 
 /*footer{
@@ -64,6 +67,19 @@ ul{
 	display: block;
 }
 
+/*.book{
+  background-color: blue;
+  height: 80%;
+  width: 40%;
+  position: absolute;
+  top: 0;
+  left: 5%;
+}*/
+
+#book{
+	margin: 60px 400px 10px 0;
+}
+
 #whatitis{
 		background: rgb(0,255,100);
 	}
@@ -82,22 +98,24 @@ ul{
 
 
 #slogan{
-	font-family: 'Philosopher', sans-serif;	
-	color: rgb(5,6,107);
+	font-family: 'Alegreya', serif;	
+	color: rgb(185,255,255);
 	text-align: left;
-	font-size: 2em;
+	font-size: 32px;
 	width: 1204px;
 	float: right;
-	margin: 0 360px 0;
+	margin: 0 0 60px 400px;
 	position: fixed;
+	top: 103px;
+  	left: 124px;
 
 }
 
-#intro_descript{
-	font-family: 'Bitter', serif;
+#main{
+	font-family: 'Roboto Condensed', sans-serif;
 	background: rgba(255,0,0,0.5);
 	color: rgb(5,6,107);
-	font-size: 28pt;
+	font-size: 28px;
 	width: 700px;
 	text-align: right;
 	float: right;
@@ -107,14 +125,14 @@ ul{
 	}
 
 #list{
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background: rgba(255,0,0,0.5);
 	color: rgb(255,205,255);
-	font-size: 16pt;
+	font-size: 16px;
 	width: 700px;
-	text-align: right;
+	text-align: left;
 	float: right;
-	padding: 0 20px 10px 0;
+	padding: 30px 20px 10px 0;
 
 }
 
