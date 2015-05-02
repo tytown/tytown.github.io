@@ -1,0 +1,102 @@
+body {
+	background-color: #F4FF2C;
+}
+
+header {
+	background-color: #FF2D00;
+	margin: 0;
+	padding: 10px 30px;
+	border: 3px double black;
+	top: fixed;
+	
+}
+
+header a {
+	font-family: "Lucida Console" monospace;
+	text-decoration: none;
+	color: #520E00;
+	font-weight: 700;
+	font-size: 20px;
+
+}
+
+nav {
+	background-color: #F4FF2C;
+	font-family: Arial, sans-serif;
+	margin: 120px 60px 0 0;
+}
+
+nav a {
+	background-color: #E8A558;
+	color: #42400E;
+	text-decoration: none;
+	display: block;
+	float: right;
+	padding: 10px 80px;
+	margin: 15px;
+}
+
+h4 {
+	background-color: #520E00;
+	color: #FFFFFF;
+	font-family: "Lucida Console" monospace;
+	font-weight: 400;
+	width: 60%;
+	float: left;
+
+
+}
+
+#zia {
+	margin: 60px;
+	float: left;
+}
+
+#zia img {
+	width: 35%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+#images {
+	display: inline-block;
+}
+
+#hero img {
+	float: left;
+	width: 68%;
+}
+
+#options img {
+	width: 30%;
+	/*box-sizing: border-box;*/
+	float: right;
+	margin: 10px 0;
+}
+
+#us img {
+	width: 50%;
+	float: left;
+	margin: 40px;
+}
+
+#description {
+	clear: both;
+	padding: 40px;
+	margin-right: 80px;
+}
+
+nav a:hover{
+	background-color: #F4FF2C;
+	color: #00aa00;
+	}
+/*
+header a:hover {
+	background-color: #FFAE00;*/
