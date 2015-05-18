@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css?family=Averia+Libre:300,700italic);
+@import url(http://fonts.googleapis.com/css?family=Philosopher:400,700);
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
+
+body {
+	
+	background:url("cover_flags.jpg") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	margin: 0;
+	font-size: 16px;
+
+}
+
+header{
+	position: fixed;
+	top: 0;
+	margin: 0;
+	background: rgba(252,25,0,0.5);
+	padding: 0;
+	height: 9em;
+	width: 100%;
+}
+
+
+h1{
+	font-family: 'Averia Libre', cursive;
+	color: rgb(0,0,0);
+	/*font-family: "Courier New", monospace;*/
+	font-size: 82px;
+	letter-spacing: 15px;
+	padding: 0;
+	text-align: left;
+	font-style: italic;
+	font-weight: 400px;
+	margin: 15px 0 0 10px;
+
+}
+
+/*footer{
+	position: fixed;
+	bottom: 0;
+	margin: 0;
+	background: rgba(252,255,255,0.8);
+	padding: 0;
+	height: 25px;
+	width: 100%;
+}
+*/
+nav{
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgb(255,0,0);
+	width: 100%;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.info{
+	display: block;
+}
+
+/*.book{
+  background-color: blue;
+  height: 80%;
+  width: 40%;
+  position: absolute;
+  top: 0;
+  left: 5%;
+}*/
+
+#book{
+	width: 35%;
+	margin: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#book img {
+	width: 80%;
+}
+
+
+#whatitis{
+		background: rgb(0,255,100);
+	}
+
+#excerpt{
+		background: rgb(0,0,255);
+	}
+
+#author{
+		background: rgb(255,0,0);
+	}
+
+#contact{
+		background: rgb(255,255,0);
+	}
+
+
+#slogan{
+	font-family: 'Alegreya', serif;	
+	color: rgb(185,255,255);
+	text-align: left;
+	font-size: 32px;
+	width: 1204px;
+	float: right;
+	margin: 0 0 60px 400px;
+	position: fixed;
+	top: 103px;
+  	left: 124px;
+
+}
+
+#main{
+	font-family: 'Roboto Condensed', sans-serif;
+	background: rgba(255,0,0,0.5);
+	color: rgb(5,6,107);
+	font-size: 28px;
+	width: 700px;
+	text-align: right;
+	float: right;
+	padding: 93px 20px 0 0;
+	margin: 40% 0 0 0;
+
+	}
+
+#list{
+	font-family: 'Roboto', sans-serif;
+	background: rgba(255,0,0,0.5);
+	color: rgb(255,205,255);
+	font-size: 16px;
+	width: 700px;
+	text-align: left;
+	float: right;
+	padding: 30px 20px 10px 0;
+
+}
+
+#menu li, #menu li a{
+	text-align: center;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#menu li{
+	width: 25%;
+}
+
+#menu li a{
+	width: 100%;
+}
+
+a:link {
+	font: 1rem "Georgia";
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a:visited {}
+
+a:focus{}
+
+a:hover {
+	background-color: #0000ff;
+	text-decoration: overline;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
