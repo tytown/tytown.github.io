@@ -28,7 +28,7 @@ header{
 h1{
 	font-family: 'Averia Libre', cursive;
 	/*font-family: "Courier New", monospace;*/
-	font-size: 500%;
+	font-size: 550%;
 	letter-spacing: .3em;
 	padding: 0;
 	text-align: center;
@@ -163,7 +163,7 @@ a:visited {}
 a:focus{}
 
 nav a:hover {
-	background-color: #FFFFFF;
+	background-color: #F1D49D;
 	text-decoration: underline;
 }
 
@@ -171,7 +171,15 @@ a:active {
 	text-decoration: underline;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 480px){
+	h1{
+	font-size: 300%;
+	letter-spacing: .3em;
+	padding: 0;
+	text-align: center;
+	font-style: italic;
+	margin: 2% auto 0 ;
 
+}
 
 }
