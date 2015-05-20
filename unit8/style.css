@@ -56,7 +56,6 @@ footer{
 	bottom: 0;
 	left: 0;
 	background: #F1925A;
-	padding: 0;
 	height: 1.6em;
 	width: 100%;
 }
@@ -75,12 +74,12 @@ footer{
 }*/
 
 #book{
-	/*background-color: #000;*/
 	width: 40%;
 	margin: 0;
 	position: fixed;
 	bottom: 0;
 	left: 0;
+	float: none;
 }
 
 #book img {
@@ -119,31 +118,21 @@ footer{
 }
 
 #main{
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	/*background: rgba(255,0,0,0.5);*/
 	color: rgb(5,6,107);
-	font-size: 28px;
+	font-size: 1.2em;
 	width: 700px;
 	text-align: right;
 	float: right;
-	padding: 93px 20px 0 0;
-	margin: 40% 0 0 0;
+	padding: 50% 5% 5% 0;
+	margin: 0;
 
 	}
 
-#list{
-	font-family: 'Roboto', sans-serif;
-/*	background: rgba(255,0,0,0.5);*/
-	color: rgb(255,205,255);
-	font-size: 16px;
-	width: 700px;
-	text-align: left;
-	float: right;
-	padding: 30px 20px 10px 0;
-
-}
-
 #menu li, #menu li a{
+	font-family: 'Alegreya', serif;
+	font-size: 1.1em;
 	text-align: center;
 	display: block;
 	float: left;
@@ -157,6 +146,10 @@ footer{
 
 #menu li a{
 	width: 100%;
+}
+
+#footer {
+	text-align: center;
 }
 
 a:link {
