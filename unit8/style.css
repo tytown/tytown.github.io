@@ -4,7 +4,7 @@
 
 body {
 	
-	background:url("images/PaperGrain.jpg") no-repeat center center fixed;
+	background: #FFFDF1;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -171,14 +171,14 @@ a:active {
 	text-decoration: underline;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 768px){
 	h1{
-	font-size: 300%;
-	letter-spacing: .3em;
+	font-size: 320%;
+	letter-spacing: .12em;
 	padding: 0;
 	text-align: center;
 	font-style: italic;
-	margin: 2% auto 0 ;
+	margin: 7% auto 0 ;
 
 }
 
