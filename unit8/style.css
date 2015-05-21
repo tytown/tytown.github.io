@@ -33,7 +33,7 @@ h1{
 	padding: 0;
 	text-align: center;
 	font-style: italic;
-	margin: 2% auto 0 ;
+	margin: 5% auto 0 ;
 
 }
 
@@ -78,20 +78,17 @@ footer{
 }*/
 
 #book{
-
-	width: 40%;
+	width: 20%;
 	margin: 0;
 	bottom: 0;
 	left: 0;
 	float: left;
+	margin: 5% 0 10% 10%;
 }
 
 #book img {
-	width: 80%;
+	width: 100%;
 }
-
-
-
 
 #about{
 		background: #6DACD8;
@@ -112,7 +109,7 @@ footer{
 
 #slogan{
 	font-family: 'Alegreya', serif;	
-	color: #3A0C00;
+	color: #173811;
 	text-align: center;
 	font-size: 2em;
 	/*float: right;*/
@@ -125,10 +122,10 @@ footer{
 	/*background: rgba(255,0,0,0.5);*/
 	color: rgb(5,6,107);
 	font-size: 1.4em;
-	width: 55%;
+	width: 45%;
 	text-align: left;
 	float: right;
-	margin: 0;
+	margin: 3.3% 9% 0 0;
 	}
 
 #list{
@@ -172,6 +169,10 @@ nav a:hover {
 }
 
 a:active {}
+
+/*------Media Queries--------------------*/
+
+
 
 @media only screen and (max-width: 1040px){
 	h1{
