@@ -148,8 +148,11 @@ footer{
 	width: 25%;
 }
 
-#menu li a{
+#menu li a {
 	width: 100%;
+	-webkit-transition: all 400ms;
+	-moz-transition: all 400ms;
+	transition: all 400ms;
 }
 
 #footer {
