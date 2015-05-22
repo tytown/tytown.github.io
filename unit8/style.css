@@ -3,6 +3,35 @@
 @import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
 @import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700);
 
+/*CLEARFIX*/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+ }
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+/*LAYOUT*/
+.page-container {
+	position: relative;
+	margin-bottom: 1.6em;
+}
+
+.link-block {
+	display: block;
+	text-align: center;
+	padding: 22% 10% 0 10%;
+}
+
+
 body {
 	box-sizing: border-box;
 	background: #CEFFD3;
@@ -19,7 +48,7 @@ header{
 	margin: 0;
 	/*background: rgba(252,25,0,0.168);*/
 	padding: 0;
-	height: 9em;
+	/*height: 9em;*/
 	width: 100%;
 }
 
@@ -42,7 +71,6 @@ nav{
 	position: fixed;
 	top: 0;
 	left: 0;
-	/*background: rgb(255,0,0);*/
 	width: 100%;
 }
 
@@ -55,17 +83,24 @@ h3 {
 	font-family: 'Averia Libre', cursive;
 	font-style: italic;
 	font-size: 1.4em;
-	float: right;
-	margin: 0 5% 0;
+	text-align: right;
+	padding: 2% 10% 0 0;
+	margin: 0;
+	/*text-align: center;*/
 }
 
 footer{
+	font-family: 'Alegreya', serif;
+	text-align: center;
+	color: #173811;
+	font-style: italic;
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	/*background: #F1925A;*/
+	background: #CEFFD3;
 	height: 1.6em;
 	width: 100%;
+
 }
 
 /*.book{
@@ -77,20 +112,30 @@ footer{
   left: 5%;
 }*/
 
-#book{
-	width: 18%;
+/*#avail {
+	margin: 0 0 0 20%;
+}*/
+
+#book {
+	width: 45%;
 	margin: 0;
 	bottom: 0;
 	left: 0;
 	float: left;
-	margin: 5% 10% 10%;
+	
 }
 
 #book img {
-	width: 100%;
+	width: 50%;
 }
 
-#about{
+/*@media(min-width: 768px) {
+	#book img {
+		margin: 19% 0 0 13%;
+	}
+}*/
+
+#about {
 		background: #6DACD8;
 	}
 
@@ -125,7 +170,7 @@ footer{
 	width: 45%;
 	text-align: left;
 	float: right;
-	margin: 3.2% 9% 0 0;
+	margin: 7% 5% 0 0;
 	}
 
 #list{
@@ -155,22 +200,19 @@ footer{
 	transition: all 400ms;
 }
 
-#footer {
-	font-family: 'Alegreya', serif;
-	text-align: center;
-	color: #173811;
-}
 
-a:link {
+
+/*a:link*/  /*WHY doesn't work??------------------------*/
+a {
 	text-decoration: none;
-	color: #173811;
+	color: #FF0000;
 }
 
 a:visited {}
 
 
 nav a:hover {
-	background-color: #F1D49D;
+	background-color: #CEFFD3;
 }
 
 a:active {}
@@ -200,7 +242,7 @@ a:active {}
 	h1{
 		font-size: 480%;
 		letter-spacing: .12em;
-		margin: 10% auto 0;
+		margin: 10% auto 5%;
 
 	}
 
@@ -209,14 +251,17 @@ a:active {}
 	}
 
 	#slogan{
-		font-size: 1.2em;
-		margin: 0 auto 10%;
+		font-size: 1.5em;
+		margin: 0 auto 15%;
 	}
 
 	#book{
-		width: 60%;
-		margin: 24% auto;
+		width: 100%;
+		margin: 0 auto 10%;
 		float: none;
+	}
+	#book img {
+		width: 60%;
 	}
 
 	#main {
@@ -226,6 +271,8 @@ a:active {}
 	}
 
 	#footer {
-		display: none;
+		position: relative;
 	}
 }
+
+

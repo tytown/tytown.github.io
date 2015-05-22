@@ -3,10 +3,12 @@
 <head>
 	<!-- <meta name="viewport" content="width=768px"> -->
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-	
-	<link href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Alegreya:700" rel="stylesheet" type="text/css">
+
+	<!-- <link href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Alegreya:700" rel="stylesheet" type="text/css"> -->
+
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>ContraTravel</title>
+
 </head>
 
 <body>
@@ -26,38 +28,48 @@
 
 	</header>
 
+	<div class="page-container clearfix">
 	
 		<div id="book">
-			<a href="#"><img src="images/Contra3D.png" alt="ContraTravel book img" title="ContraTravel book">
+			<a href="#" class="link-block"><img src="images/Contra3D.png" alt="ContraTravel book img" title="ContraTravel book">
 			</a>
-			<h3><a href="#">NOW AVAILABLE</a></h3>
+			<h3><a id="avail" href="#">...NOW AVAILABLE</a></h3>
 		</div>
 
 
-<!-- <span class="book">
-	</span> -->
-
-	<div id="main">
-			<p><q>ContraTravel</q> is the <a href="#">award-winning</a> true story of one man's life experiencing the world from a wildly different perspective.  The author demonstrates how to truly enjoy the wonders of this planet - in your own unique way.<br></p>
-	
-		<div id="list">
-			<p>Experience the ride of living against the norm:</p>
-				<ul>
-					<li class="info"> Running in the fast, cut-throat field of international banking and trade;</li>
-					<li class="info"> Plotting the rescue and recovery of a Hong Kong billionare's investment;</li>
-					<li class="info"> Opening and directing a major US State Government office in Japan, reporting directly to a U.S. Governor and former U.S. Attorney General;</li>
-					<li class="info"> Encouters with a snake huge enough to swallow a small tribe, while swimming in a Belizean jungle river;</li>
-					<li class="info"> Teaching International Economics at the Graduate School of a Major Midwestern University;</li>
-					<li class="info"> Running for Congress against the megalithic Bush family political jugnaut;</li>
-				</ul>
-			<p>... and so much more.</p>
+		<div id="main">
+				<p><q>ContraTravel</q> is the <a href="#">award-winning</a> true story of one man's life experiencing the world from a wildly different perspective.  The author demonstrates how to truly enjoy the wonders of this planet - in your own unique way.<br></p>
+		
+			<div id="list">
+				<p>Experience the ride of living against the norm:</p>
+					<ul>
+						<li class="info"> Running in the fast, cut-throat field of international banking and trade;</li>
+						<li class="info"> Plotting the rescue and recovery of a Hong Kong billionare's investment;</li>
+						<li class="info"> Opening and directing a major US State Government office in Japan, reporting directly to a U.S. Governor and former U.S. Attorney General;</li>
+						<li class="info"> Encouters with a snake huge enough to swallow a small tribe, while swimming in a Belizean jungle river;</li>
+						<li class="info"> Teaching International Economics at the Graduate School of a Major Midwestern University;</li>
+						<li class="info"> Running for Congress against the megalithic Bush family political jugnaut;</li>
+					</ul>
+				<p>... and so much more.</p>
+			</div>
 		</div>
-	</div>
+
+	</div> <!-- END PAGE CONTAINER -->
 
 
 	<footer id="footer"> 
-		<a href="#">for booking inquiries, click here</a>
+		<a href="#">&mdash; for booking inquiries, click here &mdash;</a>
 	</footer>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<script>
+	jQuery('head').append('<style>#outline {position:fixed;z-index:1000;bottom:50px;right:50px;} .outlines {outline:1px solid rgba(255, 0, 0, 0.3);}</style>');
+	jQuery('body').append('<input id=\"outline\" type=\"button\">');
+
+	jQuery('#outline').click(function() {
+		jQuery('*').toggleClass('outlines');
+	});
+	</script>
 </body>
 </html>
