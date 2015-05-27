@@ -1,35 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:400,700);
 @import url(https://fonts.googleapis.com/css?family=Averia+Libre:300,700italic);
 @import url(http://fonts.googleapis.com/css?family=Philosopher:400,700);
 @import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
 @import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700);
 
-/*CLEARFIX*/
-.clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
- }
 
-.clearfix { display: inline-block; }
-/* start commented backslash hack \*/
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
-
-
-/*LAYOUT*/
-.page-container {
-	position: relative;
-	margin-bottom: 1.6em;
-}
-
-.link-block {
-	display: block;
-	text-align: center;
-	padding: 22% 10% 0 10%;
-}
 
 
 body {
@@ -54,15 +29,14 @@ header{
 
 
 h1{
-	font-family: 'Averia Libre', cursive;
+	font-family: 'Vollkorn', serif;
 	/*font-family: "Courier New", monospace;*/
 	color: #173811;
-	font-size: 550%;
-	letter-spacing: .3em;
+	font-size: 600%;
+	letter-spacing: .2em;
 	padding: 0;
 	text-align: center;
-	font-style: italic;
-	margin: 4.2% auto 1.1%;
+	margin: 4.2% auto 0;
 
 }
 
@@ -115,6 +89,27 @@ footer{
 /*#avail {
 	margin: 0 0 0 20%;
 }*/
+/*CLEARFIX*/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+ }
+
+/*LAYOUT*/
+.page-container {
+	position: relative;
+	margin-bottom: 1.6em;
+}
+
+.link-block {
+	display: block;
+	text-align: center;
+	padding: 22% 10% 0 10%;
+}
 
 #book {
 	width: 45%;
@@ -200,12 +195,10 @@ footer{
 	transition: all 400ms;
 }
 
-
-
-/*a:link*/  /*WHY doesn't work??------------------------*/
 a {
+	font-weight: 700;
 	text-decoration: none;
-	color: #FF0000;
+	color: #173811;
 }
 
 a:visited {}
@@ -221,28 +214,30 @@ a:active {}
 
 
 
-@media only screen and (max-width: 1040px){
+@media only screen and (max-width: 768px){
 	h1{
-		font-size: 500%;
-		letter-spacing: .3em;
+		font-size: 450%;
+		letter-spacing: .25em;
+		margin: 12% auto 0;
 	}
 
 	#slogan{
-		font-size: 1.6em;
-		margin: 0 auto;
+		font-size: 2em;
+		margin: 0 auto 9%;
 	}
 
-	/*#main {
-		width: 70%;
-	}*/
+	#book img {
+		width: 75%;
+	}
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 600px){
 
 	h1{
 		font-size: 480%;
-		letter-spacing: .12em;
-		margin: 10% auto 5%;
+		letter-spacing: normal;
+		line-height: 100%;
+		margin: 20% auto 4%;
 
 	}
 
