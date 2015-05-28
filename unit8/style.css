@@ -5,8 +5,6 @@
 @import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700);
 
 
-
-
 body {
 	box-sizing: border-box;
 	background: #CEFFD3;
@@ -27,7 +25,6 @@ header{
 	width: 100%;
 }
 
-
 h1{
 	font-family: 'Vollkorn', serif;
 	/*font-family: "Courier New", monospace;*/
@@ -37,7 +34,6 @@ h1{
 	padding: 0;
 	text-align: center;
 	margin: 4.2% auto 0;
-
 }
 
 nav{
@@ -51,6 +47,12 @@ nav{
 ul{
 	margin: 0;
 	padding: 0;
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;
+	color: #173811;
 }
 
 h3 {
@@ -68,7 +70,7 @@ footer{
 	text-align: center;
 	color: #173811;
 	font-style: italic;
-	position: fixed;
+	position: relative;
 	bottom: 0;
 	left: 0;
 	background: #CEFFD3;
@@ -77,18 +79,6 @@ footer{
 
 }
 
-/*.book{
-  background-color: blue;
-  height: 80%;
-  width: 40%;
-  position: absolute;
-  top: 0;
-  left: 5%;
-}*/
-
-/*#avail {
-	margin: 0 0 0 20%;
-}*/
 /*CLEARFIX*/
 .clearfix:after {
      visibility: hidden;
@@ -112,23 +102,19 @@ footer{
 }
 
 #book {
+	display: block;
+	text-align: center;
 	width: 45%;
 	margin: 0;
 	bottom: 0;
 	left: 0;
+	padding: 9% 0 0 0;
 	float: left;
-	
 }
 
 #book img {
 	width: 50%;
 }
-
-/*@media(min-width: 768px) {
-	#book img {
-		margin: 19% 0 0 13%;
-	}
-}*/
 
 #about {
 		background: #6DACD8;
@@ -146,7 +132,6 @@ footer{
 		background: #CAD86C;
 	}
 
-
 #slogan{
 	font-family: 'Quattrocento Sans', sans-serif;
 	color: #173811;
@@ -154,7 +139,6 @@ footer{
 	font-size: 2em;
 	/*float: right;*/
 	margin: 0 auto;
-
 }
 
 #main{
@@ -166,7 +150,7 @@ footer{
 	text-align: left;
 	float: right;
 	margin: 7% 5% 0 0;
-	}
+}
 
 #list{
 	font-size: .8em;
@@ -195,12 +179,6 @@ footer{
 	transition: all 400ms;
 }
 
-a {
-	font-weight: 700;
-	text-decoration: none;
-	color: #173811;
-}
-
 a:visited {}
 
 
@@ -219,6 +197,10 @@ a:active {}
 		font-size: 450%;
 		letter-spacing: .25em;
 		margin: 12% auto 0;
+	}
+
+	#menu li, #menu li a{
+
 	}
 
 	#slogan{
