@@ -6,17 +6,24 @@
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>ContraTravel</title>
+	<script src="js/jquery.smooth-scroll.js"></script>
+	<!-- call the smoothScroll function for the nav a elements -->
+	<script>
+		$(document).ready(function() {
+			$('ul.smoothnav a').smoothScroll();
+		});
+	</script>
 
 </head>
 
 <body>
 	<header>
 		<nav>
-			<ul id="menu">
-				<li id="about"><a href="#">what is</a></li>
-				<li id="excerpt"><a href="#">excerpt</a></li>
-				<li id="author"><a href="#">author</a></li>
-				<li id="contact"><a href="#">contact</a></li>
+			<ul class="smoothnav" id="menu">
+				<li id="#whatis"><a href="#">what is</a></li>
+				<li id="#excerpt"><a href="#">excerpt</a></li>
+				<li id="#author"><a href="#">author</a></li>
+				<li id="#contact"><a href="#">contact</a></li>
 			</ul>
 		</nav>
 
@@ -32,9 +39,11 @@
 			<img src="images/Contra3D.png" alt="ContraTravel book img" title="ContraTravel book">
 		</div>
 
-		<h3 id="avail">
+		<h3>
+			<div id="avail">
 				<a href="#"><img src="images/CTarrow.png" alt="" title="">...NOW AVAILABLE</a>
-			</h3>
+			</div>
+		</h3>
 
 
 		<div id="main">

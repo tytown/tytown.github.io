@@ -19,15 +19,12 @@ body {
 header{
 	top: 0;
 	margin: 0;
-	/*background: rgba(252,25,0,0.168);*/
 	padding: 0;
-	/*height: 9em;*/
 	width: 100%;
 }
 
 h1{
 	font-family: 'Vollkorn', serif;
-	/*font-family: "Courier New", monospace;*/
 	color: #173811;
 	font-size: 600%;
 	letter-spacing: .2em;
@@ -42,11 +39,16 @@ nav{
 	top: 0;
 	left: 0;
 	width: 100%;
+	z-index: 1;
 }
 
 ul{
 	margin: 0;
 	padding: 0;
+}
+
+ul.smoothnav {
+
 }
 
 a {
@@ -56,13 +58,11 @@ a {
 }
 
 h3 {
-	font-family: 'Averia Libre', cursive;
+	font-family: 'Quattrocento Sans', sans-serif;
 	font-style: italic;
-	font-size: 1.4em;
-	text-align: right;
+	/*font-size: 1.4em;*/
+	/*text-align: right;*/
 	padding: 2% 10% 0 0;
-	margin: 0;
-	/*text-align: center;*/
 }
 
 footer{
@@ -94,12 +94,12 @@ footer{
 	position: relative;
 	margin-bottom: 1.6em;
 }
-
+/*
 .link-block {
 	display: block;
 	text-align: center;
 	padding: 22% 10% 0 10%;
-}
+}*/
 
 #book {
 	display: block;
@@ -117,6 +117,10 @@ footer{
 }
 
 #avail {
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
 }
 
 #avail img{
@@ -124,22 +128,6 @@ footer{
 	box-shadow: 5px 5px 10px rgba(0,0,255,.5);
 
 }
-
-#about {
-		background: #6DACD8;
-	}
-
-#excerpt{
-		background: #72CFDB;
-	}
-
-#author{
-		background: #84A55E;
-	}
-
-#contact{
-		background: #CAD86C;
-	}
 
 #list{
 	font-size: .8em;
@@ -167,6 +155,24 @@ footer{
 	-moz-transition: all 400ms;
 	transition: all 400ms;
 }
+
+#whatis {
+		background: #6DACD8;
+	}
+
+#excerpt{
+		background: #72CFDB;
+	}
+
+#author{
+		background: #84A55E;
+	}
+
+#contact{
+		background: #CAD86C;
+	}
+
+
 
 #slogan{
 	font-family: 'Quattrocento Sans', sans-serif;
