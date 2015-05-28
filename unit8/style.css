@@ -116,6 +116,15 @@ footer{
 	width: 50%;
 }
 
+#avail {
+}
+
+#avail img{
+	width: 20%;
+	box-shadow: 5px 5px 10px rgba(0,0,255,.5);
+
+}
+
 #about {
 		background: #6DACD8;
 	}
@@ -131,26 +140,6 @@ footer{
 #contact{
 		background: #CAD86C;
 	}
-
-#slogan{
-	font-family: 'Quattrocento Sans', sans-serif;
-	color: #173811;
-	text-align: center;
-	font-size: 2em;
-	/*float: right;*/
-	margin: 0 auto;
-}
-
-#main{
-	/*font-family: 'Roboto', sans-serif;*/
-	/*background: rgba(255,0,0,0.5);*/
-	color: #173811;
-	font-size: 1.4em;
-	width: 45%;
-	text-align: left;
-	float: right;
-	margin: 7% 5% 0 0;
-}
 
 #list{
 	font-size: .8em;
@@ -177,6 +166,26 @@ footer{
 	-webkit-transition: all 400ms;
 	-moz-transition: all 400ms;
 	transition: all 400ms;
+}
+
+#slogan{
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: #173811;
+	text-align: center;
+	font-size: 2em;
+	/*float: right;*/
+	margin: 0 auto;
+}
+
+#main{
+	/*font-family: 'Roboto', sans-serif;*/
+	/*background: rgba(255,0,0,0.5);*/
+	color: #173811;
+	font-size: 1.4em;
+	width: 45%;
+	text-align: left;
+	float: right;
+	margin: 7% 5% 0 0;
 }
 
 a:visited {}
