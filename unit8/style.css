@@ -48,7 +48,6 @@ ul{
 }
 
 ul.smoothnav {
-
 }
 
 a {
@@ -76,7 +75,6 @@ footer{
 	background: #CEFFD3;
 	height: 1.6em;
 	width: 100%;
-
 }
 
 /*CLEARFIX*/
@@ -94,12 +92,24 @@ footer{
 	position: relative;
 	margin-bottom: 1.6em;
 }
+
 /*
 .link-block {
 	display: block;
 	text-align: center;
 	padding: 22% 10% 0 10%;
 }*/
+
+.menu li{
+	width: 25%;
+}
+
+.menu li a {
+	width: 100%;
+	-webkit-transition: all 400ms;
+	-moz-transition: all 400ms;
+	transition: all 400ms;
+}
 
 #book {
 	display: block;
@@ -121,39 +131,17 @@ footer{
 	padding: 0;
 	display: block;
 	float: left;
+	position: absolute;
 }
 
 #avail img{
 	width: 20%;
-	box-shadow: 5px 5px 10px rgba(0,0,255,.5);
-
+	drop-shadow: (16px 16px 20px blue);
 }
 
 #list{
 	font-size: .8em;
 	line-height: .1.8em;
-}
-
-#menu li, #menu li a{
-	font-family: 'Alegreya', serif;
-	font-size: 1.1em;
-	text-align: center;
-	color: #173811;
-	display: block;
-	float: left;
-	margin: 0;
-	padding: 0;
-}
-
-#menu li{
-	width: 25%;
-}
-
-#menu li a {
-	width: 100%;
-	-webkit-transition: all 400ms;
-	-moz-transition: all 400ms;
-	transition: all 400ms;
 }
 
 #whatis {
@@ -172,7 +160,16 @@ footer{
 		background: #CAD86C;
 	}
 
-
+#menu li, #menu li a{
+	font-family: 'Alegreya', serif;
+	font-size: 1.1em;
+	text-align: center;
+	color: #173811;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
 
 #slogan{
 	font-family: 'Quattrocento Sans', sans-serif;
