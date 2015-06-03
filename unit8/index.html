@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>ContraTravel</title>
+
 	<script src="js/jquery.smooth-scroll.js"></script>
 	<!-- call the smoothScroll function for the nav a elements -->
 	<script>
@@ -13,24 +14,21 @@
 			$('ul.smoothnav a').smoothScroll();
 		});
 	</script>
-
 </head>
 
 <body>
 	<header>
 		<nav>
 			<ul class="smoothnav">
-				<li class="menu" id="#whatis"><a href="#">what is</a></li>
-				<li class="menu" id="#excerpt"><a href="#">excerpt</a></li>
-				<li class="menu" id="#author"><a href="#">author</a></li>
-				<li class="menu" id="#contact"><a href="#">contact</a></li>
+				<li class="menu" id="whatis"><a href="#">what is</a></li>
+				<li class="menu" id="excerpt"><a href="#">excerpt</a></li>
+				<li class="menu" id="author"><a href="#">author</a></li>
+				<li class="menu" id="contact"><a href="#">contact</a></li>
 			</ul>
 		</nav>
 
 		<h1>Contra<span>Travel</span></h1>
-
 		<p id="slogan">by Thomas McCoy</p>
-
 	</header>
 
 	<div class="page-container clearfix">
@@ -39,14 +37,14 @@
 			<img src="images/Contra3D.png" alt="ContraTravel book img" title="ContraTravel book">
 		</div>
 
-		<a href="#">
-		     <div id="avail">
-		            <div id="arrow">
-		                  <img src="images/CTarrow.png" alt="" title="">
-		            </div>
-		            <h3>...NOW AVAILABLE</h3>
-		     </div>
-		</a>
+		<div id="arrow">
+			<a href="#"> 
+                <img src="images/CTarrow.png" alt="" title=""> 
+            	<h3 id="avail">...NOW AVAILABLE
+            	</h3>
+            </a>
+	     </div>
+		
 
 		<!-- <h3>
 			<div id="avail">

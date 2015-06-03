@@ -40,9 +40,10 @@ nav {
 	left: 0;
 	width: 100%;
 	z-index: 1;
+	background-color: #CEFFD3;
 }
 
-ul{
+ul {
 	margin: 0;
 	padding: 0;
 }
@@ -56,21 +57,12 @@ a {
 	color: #173811;
 }
 
-h3 {
-	position: absolute;
-	font-family: 'Quattrocento Sans', sans-serif;
-	font-style: italic;
-	/*font-size: 1.4em;*/
-	/*text-align: right;*/
-	padding: 2% 10% 0 0;
-}
-
 footer{
 	font-family: 'Alegreya', serif;
 	text-align: center;
 	color: #173811;
 	font-style: italic;
-	position: relative;
+	position: fixed;
 	bottom: 0;
 	left: 0;
 	background: #CEFFD3;
@@ -92,7 +84,6 @@ footer{
 .page-container {
 	position: relative;
 	margin-bottom: 1.6em;
-	/*clear: both;*/
 }
 
 /*
@@ -107,10 +98,10 @@ footer{
 }
 
 .menu, .menu a{
+	width: 25%;
 	font-family: 'Alegreya', serif;
 	font-size: 1.1em;
 	text-align: center;
-	color: #173811;
 	display: block;
 	float: left;
 	margin: 0;
@@ -128,20 +119,16 @@ footer{
 		background: #6DACD8;
 }
 
-#excerpt{
+#excerpt {
 		background: #72CFDB;
 }
 
-#author{
+#author {
 		background: #84A55E;
 }
 
-#contact{
+#contact {
 		background: #CAD86C;
-}
-
-#avail {
-	clear: both;
 }
 
 #book {
@@ -164,11 +151,24 @@ footer{
 	-webkit-filter: drop-shadow(3px 3px 3px rgba(0,0,155,0.5));
 	-moz-filter: drop-shadow(3px 3px 3px rgba(0,0,155,0.5));
 	position: relative;
-	right: 40%;
+	clear: both;
+	margin: 1% 0 0 25%;
 }
 
 #arrow img {
-	width: 15%;
+	width: 20%;
+}
+
+#avail {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-style: italic;
+	font-size: 1.15em;
+	position: absolute;
+	z-index: 1;
+	margin: 0;
+	left: 0;
+	top: 0;
+	padding: .3em;
 }
 
 #list{
@@ -186,14 +186,16 @@ footer{
 }
 
 #main{
-	/*font-family: 'Roboto', sans-serif;*/
-	/*background: rgba(255,0,0,0.5);*/
 	color: #173811;
 	font-size: 1.4em;
 	width: 45%;
 	text-align: left;
 	float: right;
 	margin: 7% 5% 0 0;
+	position: absolute;
+	top: 0;
+	left: 50%;
+
 }
 
 a:visited {}
@@ -205,7 +207,7 @@ nav a:hover {
 
 a:active {}
 
-/*------Media Queries--------------------*/
+/*------Media Queries---------------------------------------------------*/
 
 
 
@@ -227,6 +229,14 @@ a:active {}
 
 	#book img {
 		width: 75%;
+	}
+
+	#arrow {
+		margin: 1% 0 0 15%;
+	}
+
+	#arrow img{
+		width: 35%;
 	}
 }
 
@@ -251,17 +261,24 @@ a:active {}
 
 	#book{
 		width: 100%;
-		margin: 0 auto 10%;
+		margin: 0 auto 7%;
 		float: none;
+
 	}
 	#book img {
 		width: 60%;
 	}
 
+	#arrow img {
+		width: 70%;
+	}
+
 	#main {
 		float: none;
 		width: auto;
-		margin: 1% 10% 0;
+		margin: 1% 12% 0;
+		position: relative;
+		left: 0%;
 	}
 
 	#footer {
