@@ -124,6 +124,12 @@ footer{
  	top: 10%;
 }
 
+.excerpt-sec {
+	position: relative;
+	width: 50%;
+	margin: auto;
+}
+
 #whatis {
 		background: #6DACD8;
 }
@@ -232,6 +238,17 @@ footer{
 #sec-excerpt {
 	height: 100vh;
 	background: #72CFDB;
+}
+
+#excerpt-paper {
+	background-color: #000;
+	position: absolute;
+	height: 100%
+}
+
+#gap {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 2em;
 
 }
 
@@ -272,7 +289,7 @@ a:active {}
 		margin: 12% auto 0;
 	}
 
-	.pagewrap {
+	.whatis-sec {
 		width: 70%;
 	}
 
