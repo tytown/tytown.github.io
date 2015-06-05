@@ -3,6 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Philosopher:400,700);
 @import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
 @import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Mr+Dafoe);
 
 
 body {
@@ -115,6 +116,14 @@ footer{
 	transition: all 400ms;
 }
 
+.whatis-sec {
+	position: relative;
+	width: 60%;
+	text-align: left;
+ 	margin: auto;
+ 	top: 10%;
+}
+
 #whatis {
 		background: #6DACD8;
 }
@@ -152,11 +161,13 @@ footer{
 	-moz-filter: drop-shadow(3px 3px 3px rgba(0,0,155,0.5));
 	position: relative;
 	clear: both;
-	margin: 1% 0 0 25%;
+	margin: 1% auto;
+	width: 100%;
 }
 
 #arrow img {
-	width: 20%;
+	max-width: 200px;
+	min-width: 40px;
 }
 
 #avail {
@@ -166,7 +177,7 @@ footer{
 	position: absolute;
 	z-index: 1;
 	margin: 0;
-	left: 0;
+	left: 34%;
 	top: 0;
 	padding: .3em;
 }
@@ -188,14 +199,50 @@ footer{
 #main{
 	color: #173811;
 	font-size: 1.4em;
-	width: 45%;
+	width: 50%;
 	text-align: left;
-	float: right;
-	margin: 7% 5% 0 0;
-	position: absolute;
-	top: 0;
-	left: 50%;
+	float: left;
+	margin: 7% 0 0 1%;
+/*	position: absolute;*/
+	/*top: 0;
+	left: 50%;*/
 
+}
+
+#sec-whatis {
+	font-family: 'Vollkorn', serif;
+	height: 100vh;
+	background: #6DACD8;
+	text-align: right;
+}
+
+#sec-whatis h4 {
+	font-size: 4.8em;
+}
+
+#sec-whatis p {
+	font-size: 1.3em;
+}
+
+#cursive {
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 36px;
+}
+
+#sec-excerpt {
+	height: 100vh;
+	background: #72CFDB;
+
+}
+
+#sec-author {
+	height: 100vh;
+	background: #84A55E;
+}
+
+#sec-contact {
+	height: 100vh;
+	background: #CAD86C;
 }
 
 a:visited {}
@@ -209,6 +256,13 @@ a:active {}
 
 /*------Media Queries---------------------------------------------------*/
 
+@media only screen and (max-width: 1040px){
+
+	#avail {
+		left: 30%;
+		font-size: 1.09em;
+	}
+}
 
 
 @media only screen and (max-width: 768px){
@@ -216,6 +270,10 @@ a:active {}
 		font-size: 450%;
 		letter-spacing: .25em;
 		margin: 12% auto 0;
+	}
+
+	.pagewrap {
+		width: 70%;
 	}
 
 	#menu li, #menu li a{
@@ -232,11 +290,22 @@ a:active {}
 	}
 
 	#arrow {
-		margin: 1% 0 0 15%;
+		margin: 5% 0 0 15%;
 	}
 
 	#arrow img{
-		width: 35%;
+	max-width: 177px;
+	min-width: 40px;
+	}
+
+	#avail {
+		font-size: 1em;
+		left: 27%;
+	}
+
+	#main {
+		margin: 7% 0 0 3%;
+
 	}
 }
 
@@ -254,6 +323,20 @@ a:active {}
 		display: block;
 	}
 
+	#sec-whatis h4 {
+		padding: none;
+		margin: 0 auto;
+		font-size: 2.3em;
+	}
+
+	#sec-whatis p {
+		font-size: 1.1em;
+	}
+
+	.whatis-sec {
+		width: 70%;
+	}
+
 	#slogan{
 		font-size: 1.5em;
 		margin: 0 auto 15%;
@@ -261,7 +344,7 @@ a:active {}
 
 	#book{
 		width: 100%;
-		margin: 0 auto 7%;
+		margin: 0 auto 15%;
 		float: none;
 
 	}
@@ -270,7 +353,11 @@ a:active {}
 	}
 
 	#arrow img {
-		width: 70%;
+		width: 55%;
+	}
+
+	#avail {
+
 	}
 
 	#main {
@@ -284,6 +371,9 @@ a:active {}
 	#footer {
 		position: relative;
 	}
+
+
+
 }
 
 
