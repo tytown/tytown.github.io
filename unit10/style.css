@@ -245,7 +245,7 @@ footer{
 }
 
 #sec-excerpt {
-	height: 100vh;
+	height: auto;
 	background: #72CFDB;
 }
 
