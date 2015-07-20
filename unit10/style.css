@@ -136,10 +136,15 @@ footer{
 
 .author-sec {
 	font-family: 'Vollkorn', serif;
-	width: 70%;
-	font-size: 1.5em;
-	padding: 15% 5% 0 10%;
+	font-size: 1.3em;
+	padding: 10% 22%;
+	line-height: 1.5em;
 
+}
+
+.contact-sec {
+	font-family: 'Vollkorn', serif;
+	
 }
 
 #whatis {
@@ -223,10 +228,16 @@ footer{
 	margin: 7% 0 0 1%;
 }
 
+#main p{
+	padding: 3% 0;
+}
+
 #sec-whatis {
 	font-family: 'Vollkorn', serif;
-	height: 100vh;
+	height: auto;
 	background: #6DACD8;
+	padding: 0 0 4em 0;
+	margin: 0;
 }
 
 #sec-whatis h2 {
@@ -247,6 +258,7 @@ footer{
 #sec-excerpt {
 	height: auto;
 	background: #72CFDB;
+	height: 100vh;
 }
 
 #excerpt-paper {
@@ -255,9 +267,14 @@ footer{
 	-moz-filter: drop-shadow(3px 3px 3px rgba(0,0,155,0.5));
 	background-color: #fff;
 	width: 60%;
-	position: absolute;
-	height: 100%;
-	margin: 2em 14em;
+	margin: 0 auto;
+	padding: 0 0 2em 0;
+	height: 100vh;
+}
+
+#excerpt-text {
+	font-size: 1.3em;
+	text-indent: 1.8em;
 }
 
 #gap {
@@ -271,19 +288,35 @@ footer{
 	font-size: .5em;
 }
 
-#excerpt-text {
-	font-size: 1.3em;
-	text-indent: 1.8em;
-}
-
 #sec-author {
 	height: 100vh;
 	background: #84A55E;
 }
 
+#sec-author span{
+	font-size: 1.8em;
+}
+
 #sec-contact {
 	height: 100vh;
 	background: #CAD86C;
+	font-size: 1.3em;
+	padding: 15% 22%;
+	line-height: 1.5em;
+}
+
+#sec-contact span {
+	text-align: right;
+	border-top: 2px solid #000;
+	padding: 4% 70% 0 0;
+	font-size: 1.2em;
+	font-style: normal;
+}
+
+#sec-contact p {
+	text-align: left;
+	font-style: italic;
+	
 }
 
 a:visited {}
@@ -347,7 +380,16 @@ a:active {}
 		margin: 7% 0 0 3%;
 
 	}
-}
+
+	#sec-excerpt {
+	height: auto;
+	background: #72CFDB;
+	height: 100vh;
+	}
+
+	#excerpt-paper {
+	width: 70%;
+	}
 
 @media only screen and (max-width: 690px){
 
@@ -363,6 +405,14 @@ a:active {}
 		display: block;
 	}
 
+	.author-sec {
+	font-family: 'Vollkorn', serif;
+	font-size: 1.3em;
+	padding: 10% 20%;
+	line-height: 1.5em;
+
+}
+
 	#sec-whatis h2 {
 		padding: none;
 		margin: 0 auto;
@@ -373,9 +423,36 @@ a:active {}
 		font-size: 1.1em;
 	}
 
-	.whatis-sec {
-		width: 70%;
+	#gap {
+ 		padding:10% 5%;
+ 	}
+
+	#excerpt-paper {
+	/*filter: drop-shadow(3px 3px 3px rgba(0,0,155,0.5));
+	-webkit-filter: drop-shadow(3px 3px 3px rgba(0,0,155,0.5));
+	-moz-filter: drop-shadow(3px 3px 3px rgba(0,0,155,0.5));*/
+	background-color: #fff;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 0 2em 0;
+	height: 100vh;
 	}
+
+	#excerpt-text {
+	font-size: 1.1em;
+	text-indent: 1.8em;
+	padding: 0 3em;
+	}
+
+	#sec-author {
+	height: auto;
+	background: #84A55E;
+	}
+
+	#sec-author span{
+	font-size: 1.7em;
+	}
+
 
 	#slogan{
 		font-size: 1.5em;

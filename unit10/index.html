@@ -22,14 +22,15 @@
 
 </head>
 
+
 <body>
 	<header>
 		<nav>
 			<ul class="smoothnav">
-				<li class="menu" id="whatis"><a href="#sec-whatis">what is</a></li>
-				<li class="menu" id="excerpt"><a href="#sec-excerpt">excerpt</a></li>
-				<li class="menu" id="author"><a href="#sec-author">author</a></li>
-				<li class="menu" id="contact"><a href="#sec-contact">contact</a></li>
+				<li class="menu" id="whatis"><a href="#sec-whatis" class="smoothScroll">what is</a></li>
+				<li class="menu" id="excerpt"><a href="#sec-excerpt" class="smoothScroll">excerpt</a></li>
+				<li class="menu" id="author"><a href="#sec-author" class="smoothScroll">author</a></li>
+				<li class="menu" id="contact"><a href="#sec-contact" class="smoothScroll">contact</a></li>
 			</ul>
 		</nav>
 
@@ -46,7 +47,7 @@
 			<div id="arrow">
 			<a href="#"> 
                 <img src="images/CTarrow.png" alt="" title=""> 
-            	<h3 id="avail">...NOW AVAILABLE
+            	<h3 id="avail"><a href="http://www.amazon.com/ContraTravel-Uncommon-Way-Seeing-World/dp/0692372938/ref=sr_1_1?ie=UTF8&qid=1437022274&sr=8-1&keywords=Contratravel" target="_blank">...NOW AVAILABLE</a>
             	</h3>
             </a>
 	     </div>
@@ -60,7 +61,7 @@
 
 
 		<div id="main">
-				<p><q>ContraTravel</q> is the <a href="#">award-winning</a> true story of one man's life experiencing the world from a wildly different perspective.  The author demonstrates how to truly enjoy the wonders of this planet - in your own unique way.<br></p>
+				<p><q>ContraTravel</q> is the <a href="http://tucsonfestivalofbooks.org/?id=193" target="_blank">award-winning</a> true story of one man's life experiencing the world from a wildly different perspective.  The author demonstrates how to truly enjoy the wonders of this planet - in your own unique way.<br></p>
 		
 			<div id="list">
 				<p>Experience the ride of living against the norm:</p>
@@ -109,12 +110,14 @@
 
 	<section id="sec-author">
 		<div class="author-sec">
-			<p><span>Thomas McCoy discovered</span> the thrill of international travel and adventure following a military tour of duty in the Northwest Pacific Mariana Islands. After he finished his education at the American Graduate School of Interational Management, with languages, economics, and this in mind, he "hit" the proverbial road and three decades and 120 countries later decided to share a few of his true yet often comical travel stories.</p>
+			<p><span>Thomas discovered</span><br>the thrill of international travel and adventure following a military tour of duty in the Northwest Pacific Mariana Islands. After he finished his education at the American Graduate School of Interational Management, with languages, economics, and this in mind, he hit the proverbial road and three decades and 120 countries later decided to share a few of his true yet often comical travel stories.</p>
 		</div>
 	</section>
 
 	<section id="sec-contact">
-		<div class="contact-sec"> 
+		<div class="contact-sec">
+			<p><span>Get in touch:</span></p>
+			<p>tmjmccoy@gmail.com</p>
 	</div>
 	</section>
 
@@ -122,15 +125,18 @@
 		<a href="#">&mdash; ContraTravel Home &mdash;</a>
 	</footer>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/smoothscroll.js"></script>
 
+<!-- 	// <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+ -->
 	<script>
-	jQuery('head').append('<style>#outline {position:fixed;z-index:1000;bottom:50px;right:50px;} .outlines {outline:1px solid rgba(255, 0, 0, 0.3);}</style>');
-	jQuery('body').append('<input id=\"outline\" type=\"button\">');
+	// jQuery('head').append('<style>#outline {position:fixed;z-index:1000;bottom:50px;right:50px;} .outlines {outline:1px solid rgba(255, 0, 0, 0.3);}</style>');
+	// jQuery('body').append('<input id=\"outline\" type=\"button\">');
 
-	jQuery('#outline').click(function() {
-		jQuery('*').toggleClass('outlines');
-	});
+	// jQuery('#outline').click(function() {
+	// 	jQuery('*').toggleClass('outlines');
+	// });
 	</script>
 </body>
 </html>
